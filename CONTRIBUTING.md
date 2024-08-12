@@ -1,4 +1,4 @@
-# Contributing to CloudWatch Agent Installer
+# Contribuciones al instalador de CloudWatch
 
 Gracias por tu interés en contribuir al proyecto **CloudWatch Agent Installer**. Aquí te proporcionamos algunas directrices para facilitar el proceso de colaboración.
 
@@ -10,7 +10,7 @@ Gracias por tu interés en contribuir al proyecto **CloudWatch Agent Installer**
 2. **Solicitudes de Extracción (Pull Requests)**:
    - Asegúrate de que tu código está bien probado y cumple con los estándares del proyecto antes de enviar una solicitud de extracción.
    - Incluye una descripción clara de los cambios realizados en tu solicitud de extracción.
-   - Si tu contribución incluye nuevas funcionalidades o cambios significativos, actualiza el archivo `README.md` en consecuencia.
+   - Si tu contribución incluye nuevas funcionalidades o cambios significativos, actualiza el archivo `README.md` y 'CHANGELOG.md' en consecuencia.
    - Asegúrate de que tu código sigue el estilo y las normas de codificación del proyecto.
 
 3. **Normas de Codificación**:
@@ -26,6 +26,7 @@ Gracias por tu interés en contribuir al proyecto **CloudWatch Agent Installer**
 5. **Documentación**:
    - Actualiza el archivo `README.md` si tu contribución cambia la forma en que se usa el proyecto o agrega nuevas funcionalidades.
    - Asegúrate de que cualquier nueva funcionalidad esté documentada y que los ejemplos proporcionados en la documentación sean precisos.
+   - Actualiza el archico 'CHANGELOG.md' despues de realizar cualquier cambio, esto ayudara a llevar un control de los cambios realizados.
 
 ## Proceso de Contribución
 
@@ -41,7 +42,7 @@ Para asegurar un ambiente colaborativo y respetuoso, por favor revisa y sigue nu
 
 ## Contacto
 
-Si tienes alguna pregunta sobre el proceso de contribución, por favor contacta al mantenedor del proyecto a través de [tu_email@dominio.com](mailto:tu_email@dominio.com).
+Si tienes alguna pregunta sobre el proceso de contribución, por favor contacta al mantenedor del proyecto a través de [gomezjosedavid997@gmail.com](mailto:gomezjosedavid997@gmail.com).
 
 ¡Gracias por contribuir!
 

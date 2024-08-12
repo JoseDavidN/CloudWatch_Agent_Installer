@@ -8,7 +8,7 @@ Nos comprometemos a hacer de nuestra participación en el proyecto una experienc
 
 Ejemplos de comportamiento que contribuyen a crear un entorno positivo incluyen:
 
-- Uso de un lenguaje respetuoso e inclusivo.
+- Uso de un lenguaje respetuoso.
 - Respeto por diferentes puntos de vista y experiencias.
 - Aceptación constructiva de críticas.
 - Enfoque en lo que es mejor para la comunidad.
@@ -24,7 +24,7 @@ Ejemplos de comportamiento inaceptable incluyen:
 
 ## Aplicación
 
-Los casos de comportamiento inaceptable pueden ser reportados contactando a [tu_email@dominio.com](mailto:tu_email@dominio.com). Todos los informes serán revisados e investigados y se tomarán las acciones adecuadas para abordar la situación.
+Los casos de comportamiento inaceptable pueden ser reportados contactando a [gomezjosedavid997@gmail.com](mailto:gomezjosedavid997@gmail.com). Todos los informes serán revisados e investigados y se tomarán las acciones adecuadas para abordar la situación.
 
 ## Alcance
 

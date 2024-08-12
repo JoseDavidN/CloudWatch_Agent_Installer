@@ -12,7 +12,7 @@ WINDOWS_INSTALL_COMMAND = ""
 
 # Configuracion de SSH
 SSH_USER = os.environ.get("SSH_USER", "ubuntu")
-SSH_KEY_PATH = os.environ.get("SSH_KEY_PATH", "key.pem")
+SSH_KEY_PATH = os.environ.get("SSH_KEY_PATH")
 
 # Configuracion de WinRM
 WINRM_USER = os.environ.get("WINRM_USER", "Administrator")

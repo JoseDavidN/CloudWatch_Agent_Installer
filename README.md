@@ -18,7 +18,44 @@ Este proyecto proporciona una solución para instalar el Amazon CloudWatch Agent
 ## Instalación
 
 1. **Clona el repositorio**:
-
    ```bash
-   git clone https://github.com/tu_usuario/cloudwatch-agent-installer.git
-   cd cloudwatch-agent-installer
+   git clone https://github.com/JoseDavidN/CloudWatch_Agent_Installer.git
+   cd CloudWatch_Agent_Installer
+2. **Crea y activa un entorno virtual** (opcional, pero recomendado)
+   ```bash
+   python3 -m venv venv #En Windows: python -m venv venv
+   source venv/bin/activate #En Windows:  source venv/Scripts/activate
+3. **Instala las dependencias**
+   ```bash
+   pip install -r requirements.txt
+4. **Copiar el archivo de variables de entorno**
+   ```bash
+   cp .env.example .env
+5. **Configura las variables de entorno**  
+   - Asegurate de que las variables de entorno estan correctamente configuradas
+   - Alternativamente, puedes editar el archivo 'config.py' para configurar tus credenciales (No recomendado por razones de seguridad)
+
+## Uso
+
+Para ejecutar el programa simplemente ejecute el archivo 'main.py':
+   ```bash
+   python3 main.py #En windows: python main.py
+   ```
+
+## Estructura del proyecto
+- 'CloudWatch_Agent_Install/config.py': Archivo de configuracion para parametros del proyecto
+- 'CloudWatch_Agent_Install/installer.py': Contiene las funciones para instalar el CLoudWatch Agent en linux y windows
+- 'CloudWatch_Agent_Install/main.py': Punto de entrada principal del programa que coordina la instalacion
+- 'requirements.txt': Lista de dependencias del proyecto
+- 'README.md': Documentacion del proyecto
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor hable un issue o un pull request si deseas contribuir al proyecto. Para detalles sobre el proceso de contribucion consulta el archivo [CONTRIBUTING.md](CONTRIBUTING.md) si esta disponible.
+
+## Licencia
+
+Este proyecto esta licenciado bajo la Licencia MIT. Consulte el archivo 'LICENSE' para mas detalles.
+
+## Contacto
+Para preguntas o soporte adicional por favor contacta a [gomezjosedavid997@gmail.com](mailto:gomezjosedavid997@gmail.com).
