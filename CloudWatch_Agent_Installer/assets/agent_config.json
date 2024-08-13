@@ -1,0 +1,41 @@
+{
+    "metrics": {
+        "namespace": "test_metrics_CWA",
+        "metrics_collected": {
+            "cpu": {
+                "measurement": [
+                    {
+                        "name": "usage_active",
+                        "rename": "CPU_USAGE",
+                        "unit": "Percent"
+                    }
+                ],
+                "resources": [
+                    "*"
+                ]
+            },
+            "disk": {
+                "measurement": [
+                    {
+                        "name": "used_percent"
+                    }
+                ],
+                "resources": [
+                    "*"
+                ]
+            },
+            "mem": {
+                "measurement": [
+                    {
+                        "name": "used_percent",
+                        "rename": "MEM_USED_PERCENT",
+                        "unit": "Percent"
+                    }
+                ],
+                "resources": [
+                    "*"
+                ]
+            }
+        }
+    }
+}
