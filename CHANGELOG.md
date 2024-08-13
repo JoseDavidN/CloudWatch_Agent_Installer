@@ -2,6 +2,10 @@
 
 Todas las notas de la versión importantes para este proyecto se documentan en este archivo. Las versiones se enumeran en orden descendente (las versiones más recientes están al principio).
 
+## [0.2.1] - 2020-08-13
+## Correccion
+- se corrigio el archivo `setup.py`
+
 ## [0.2.0] - 2020-08-13
 ## Agregado
 - se agrego comando de descarga y instalacion del agente.
@@ -10,7 +14,7 @@ Todas las notas de la versión importantes para este proyecto se documentan en e
 - se agrego test de conexion ssh.
 - se agrego plantilla `agent_config.JSON` con configuracion para metricas.
   
-## Correxion
+## Correccion
 - se corrigio la conexion a instancias linux.
 - se corrigio sintaxis en la documentacion.
 - se corrigio test de instalacion.
@@ -24,7 +28,7 @@ Todas las notas de la versión importantes para este proyecto se documentan en e
 ## Agregado
 - se anexo archivo '.env.example' con las plantillas de las variables de entorno.
 
-## Correxion
+## Correccion
 - Se corrigio el archivo 'README.md' junto a los archivos `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` actualizando la informacion.
 
 ## [0.1.0] - 2024-08-12

@@ -3,13 +3,13 @@ from setuptools import setup, find_packages
 # Configuration
 setup(
     name = "cloudwatch_agent_installer",
-    version = "0.1.0",
+    version = "0.2.0",
     author = "Jose David Gomez",
     author_email = "gomezjosedavid997@gmail.com",
     description = "Programa de instalacion de CloudWatch Agent para instancias de EC2 con linux y windows",
     long_description = open('README.md').read(),
     long_description_content_type = "text/markdown",
-    url = "",
+    url = "https://github.com/JoseDavidN/CloudWatch_Agent_Installer",
     packages = find_packages(),
     classifiers = [
         "Programming Language :: Python :: 3",
@@ -24,7 +24,7 @@ setup(
     ],
     entry_points = {
         'console_scripts': [
-            'cwa-installer = cloudwatch_agent_installer.main:main',
+            'cwa --intaller = cloudwatch_agent_installer.main:main',
         ],
     },
 )
