@@ -24,7 +24,7 @@ setup(
     ],
     entry_points = {
         'console_scripts': [
-            'cwa --intaller = cloudwatch_agent_installer.main:main',
+            'cwa-installer= CloudWatch_Agent_Installer.main:main',
         ],
     },
 )

@@ -2,6 +2,18 @@
 
 Todas las notas de la versión importantes para este proyecto se documentan en este archivo. Las versiones se enumeran en orden descendente (las versiones más recientes están al principio).
 
+## [0.2.2] - 2020-08-15
+## Agregado
+- Agregado archivo de configuracion JSON para agente en windows
+- Comandos para descargar e instalar el agente cloudwatch en windows
+- archivo de test para conexion remota a windows
+
+## Corregido
+- Se cambio el nombre de `agent_config.json` por `agent_config_linux.json`
+- Se modifico la funcion de install en linux (minimizar codigo)
+- Se corrigieron unos parametros en el `setup.py`
+- Corregida la funcion que se conecta he instala el agente cloudwacth
+
 ## [0.2.1] - 2020-08-13
 ## Correccion
 - se corrigio el archivo `setup.py`
@@ -14,7 +26,7 @@ Todas las notas de la versión importantes para este proyecto se documentan en e
 - se agrego test de conexion ssh.
 - se agrego plantilla `agent_config.JSON` con configuracion para metricas.
   
-## Correccion
+## Corregido
 - se corrigio la conexion a instancias linux.
 - se corrigio sintaxis en la documentacion.
 - se corrigio test de instalacion.
@@ -28,7 +40,7 @@ Todas las notas de la versión importantes para este proyecto se documentan en e
 ## Agregado
 - se anexo archivo '.env.example' con las plantillas de las variables de entorno.
 
-## Correccion
+## Corregido
 - Se corrigio el archivo 'README.md' junto a los archivos `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` actualizando la informacion.
 
 ## [0.1.0] - 2024-08-12
