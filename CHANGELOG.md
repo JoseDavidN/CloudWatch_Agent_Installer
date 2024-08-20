@@ -2,11 +2,21 @@
 
 Todas las notas de la versión importantes para este proyecto se documentan en este archivo. Las versiones se enumeran en orden descendente (las versiones más recientes están al principio).
 
+## [0.2.3] - 2020-08-20
+## Agregado
+- Agregado ultilidad, funciones para la carga de configuracion json en sistemas linux y windows
+
+## Corregido
+- Actualizacion de dependiencias
+- Se corrigio la funcion de instalacion para windows
+- Modificacion en el archivo `config.py`
+- Modificacion en la configuracion json del agente para windows
+
 ## [0.2.2] - 2020-08-15
 ## Agregado
 - Agregado archivo de configuracion JSON para agente en windows
 - Comandos para descargar e instalar el agente cloudwatch en windows
-- archivo de test para conexion remota a windows
+- Archivo de test para conexion remota a windows
 
 ## Corregido
 - Se cambio el nombre de `agent_config.json` por `agent_config_linux.json`
@@ -16,7 +26,7 @@ Todas las notas de la versión importantes para este proyecto se documentan en e
 
 ## [0.2.1] - 2020-08-13
 ## Correccion
-- se corrigio el archivo `setup.py`
+- Se corrigio el archivo `setup.py`
 
 ## [0.2.0] - 2020-08-13
 ## Agregado
