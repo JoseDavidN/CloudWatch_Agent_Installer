@@ -1,6 +1,6 @@
 {
     "metrics": {
-        "namespace": "test_metrics_CWA",
+        "namespace": "metrics_collected_linux",
         "metrics_collected": {
             "cpu": {
                 "measurement": [

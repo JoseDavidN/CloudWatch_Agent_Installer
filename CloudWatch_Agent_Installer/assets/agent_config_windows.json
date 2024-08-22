@@ -1,6 +1,6 @@
 {
 	"metrics": {
-        "namespace": "test_metrics_CWA_windows",
+        "namespace": "metrics_collected_windows",
 		"metrics_collected": {
 			"LogicalDisk": {
 				"measurement": [

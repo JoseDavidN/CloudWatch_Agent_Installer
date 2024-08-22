@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 # Configuration
 setup(
     name = "cloudwatch_agent_installer",
-    version = "0.2.0",
+    version = "0.2.4",
     author = "Jose David Gomez",
     author_email = "gomezjosedavid997@gmail.com",
     description = "Programa de instalacion de CloudWatch Agent para instancias de EC2 con linux y windows",

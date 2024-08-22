@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 # Configuracion de AWS
 AWS_REGION = os.getenv("AWS_REGION")
@@ -9,7 +9,6 @@ AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
 AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
 
 # Configuracion de CloudWatch Agent
-CLOUDWATCH_AGENT_VERSION = "latest"
 LINUX_INSTALL_COMMAND = "curl https://s3.amazonaws.com/amazoncloudwatch-agent/ubuntu/amd64/latest/amazon-cloudwatch-agent.deb -o amazon-cloudwatch-agent.deb && sudo dpkg -i -E amazon-cloudwatch-agent.deb"
 LINUX_PERMISSIONS_COMMAND = "sudo rm amazon-cloudwatch-agent.deb && sudo chmod o+w /opt/aws/amazon-cloudwatch-agent/etc/"
 LINUX_INIT_AGENT_COMMAND = "sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json -s"

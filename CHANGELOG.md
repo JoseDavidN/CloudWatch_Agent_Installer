@@ -2,6 +2,14 @@
 
 Todas las notas de la versión importantes para este proyecto se documentan en este archivo. Las versiones se enumeran en orden descendente (las versiones más recientes están al principio).
 
+## [0.2.4] - 2020-08-22
+## Agregado
+- archivo en la raiz para ejecucion del programa sin instalarlo como paquete
+
+## Corregido
+- se corrigio problema con las variables de entorno
+- pequeñas modificaciones en algunos de los archivos
+
 ## [0.2.3] - 2020-08-20
 ## Agregado
 - Agregado ultilidad, funciones para la carga de configuracion json en sistemas linux y windows

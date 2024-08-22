@@ -12,7 +12,6 @@ def install_linux(instance):
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh.connect(ip_address, username=SSH_USER, key_filename=SSH_KEY_PATH)
-    sftp = ssh.open_sftp()
 
     command = LINUX_INSTALL_COMMAND + " && " + LINUX_PERMISSIONS_COMMAND
 
@@ -22,7 +21,7 @@ def install_linux(instance):
 
     path = os.path.join(os.path.dirname(__file__), LOCALE_PATH_LINUX)
 
-    send_file = send_json_linux(sftp, path)
+    send_file = send_json_linux(ssh, path)
 
     if send_file:
         print("Archivo JSON enviado con éxito")
